@@ -13,7 +13,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #fff200;
+    background: rgb(255,255,0,0.9);
 }
 
 ::selection{
@@ -28,8 +28,8 @@ body{
 }
 
 .header img{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 .wrapper{
@@ -121,7 +121,7 @@ body{
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    background: #fff200;
+    background: rgb(255,255,0,0.9);
     transition: transform 0.3s ease;
 }
 
@@ -228,3 +228,8 @@ li:not(:first-child) span{
     padding-bottom: 10px;
 }
 
+.note p{
+    color: #ff0000;
+    justify-self: center;
+    padding-top: 20px;
+}
